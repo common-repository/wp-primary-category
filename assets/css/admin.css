@@ -1,0 +1,21 @@
+.selectit .wp-pc-link {
+	float: right;
+	text-decoration: none;
+	padding: 0 4px;
+	height: auto;
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	transition: background-color .5s;
+	will-change: transition;
+}
+
+.selectit .wp-pc-link:focus {
+	box-shadow: none;
+	background-color: #f0f0f0;
+}
+
+.selectit.wp-pc-selected .wp-pc-link {
+	color: #fff;
+	font-weight: bold;
+	background-color: #0085ba;
+}
